@@ -1,0 +1,38 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.blue-block {
+    color: white;
+    width: 108px;
+    background: blue;
+    margin-bottom: 80px;
+}
+
+.title {
+    color: red;
+}
+
+.subtitle {
+    color: white;
+    font-size: 20px;
+    background: green;
+    padding: 10px 6px;
+}
+
+.large-padding {
+    padding: 40px;
+}
+
+.form {
+    display: inline-block;
+    text-align: center;
+}
+
+.list {
+    font-size: 26px;
+}
+
+.list li {
+    border: 1px solid black;
+}
