@@ -1,0 +1,162 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #201b2d;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.65em;
+}
+
+input {
+    height: 45px;
+    margin-bottom: 15px;
+    padding: 12px 24px;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+}
+
+input:hover {
+    border-color: #aaa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #4ebffe; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #4ebffe 0%, #378fd9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  #4ebffe 0%,#378fd9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  #4ebffe 0%,#378fd9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebffe', endColorstr='#378fd9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 37px;
+}
+
+.intro {
+    max-width: 400px;
+    margin-bottom: 45px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ffd429;
+    color: #2e2a1b;
+    display: inline-block;
+    padding: 18px 27px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #bd9c16;
+    color: black;
+}
+
+.title-big {
+    font-size: 59px;
+}
+
+.desktop {
+    margin: 56px 0 56px 96px;
+    max-width: 518px;
+}
+
+.desktop-image {
+    width: 100%;
+    border-radius: 518px;
+    -webkit-box-shadow: 0px 11px 79px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 11px 79px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 11px 79px rgba(0, 0, 0, 0.09);
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.skill {
+    max-width: 300px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.skill-name {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.skill-text {
+    margin-top: 7px;
+    font-size: 15px;
+}
+
+.skill-image {
+    width: 100%;
+    max-width: 68px;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.mail {
+    background: #ecf2f8;
+}
+
+.footer {
+    background: #164d7a;
+    padding: 56px 0;
+}
+
+.footer-text {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
