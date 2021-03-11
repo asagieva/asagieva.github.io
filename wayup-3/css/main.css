@@ -178,15 +178,6 @@ input:hover {
         flex-direction: column;
     }
 
-    .section {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .section-title {
-        margin-bottom: 40px;
-    }
-
     .offer {
         margin-top: 40px;
     }
@@ -228,5 +219,14 @@ input:hover {
 @media screen and (max-width: 576px) {
     .container {
         width: 90%;
+    }
+
+    .section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
     }
 }
