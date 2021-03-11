@@ -33,8 +33,7 @@ input:hover {
 }
 
 .container {
-    width: 90%;
-    max-width: 1170px;
+    width: 1170px;
     margin: 0 auto;
 }
 
@@ -88,7 +87,7 @@ input:hover {
 }
 
 .desktop {
-    margin: 56px 0 56px 96px;
+    margin: 56px 0;
     width: 100%;
     max-width: 518px;
 }
@@ -120,7 +119,6 @@ input:hover {
 
 .skill {
     max-width: 300px;
-    padding: 0 16px;
     text-align: center;
 }
 
