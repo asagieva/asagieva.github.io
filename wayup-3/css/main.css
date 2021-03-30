@@ -3,6 +3,7 @@ body {
     padding: 0;
     margin: 0;
     color: #201b2d;
+    overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -157,6 +158,9 @@ input:hover {
     color: #fff;
     text-align: center;
     font-size: 14px;
+}
+.blueviolet {
+    color: blueviolet;
 }
 
 /*Responsive*/

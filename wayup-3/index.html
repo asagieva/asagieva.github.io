@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,16 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>wayup</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header id="header" class="header">
         <div class="container">
-            <img src="img/logo.png" alt="WAYUP">
+            <img src="img/logo.png" alt="WAYUP" class="logo animated fadeInDown">
             <div class="wrapper wrapper--align-center">
                 <div class="offer">
-                    <h1 class="title">
+                    <h1 class="title animated fadeInLeft">
                         С помощью верстки
                         <br>
                         я создам ту жизнь, о которой
@@ -26,10 +28,10 @@
                         Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
                     </p>
                     <div>
-                        <a href="#" class="btn"> Двигаться к мечте!</a>
+                        <a href="#" class="btn" id="btn"> Двигаться к мечте!</a>
                     </div>
                 </div>
-                <div class="desktop">
+                <div class="desktop animated fadeInRight">
                     <img src="img/main-banner.png" alt="Code desktop" class="desktop-image"> 
                 </div>
             </div>
@@ -38,7 +40,7 @@
 
 <section id="learn" class="section learn">
     <div class="container">
-        <h2 class="section-title">Что меня ждет впереди </h2>
+        <h2 class="section-title animated">Что меня ждет впереди </h2>
         <div class="skills-list">
             <div class="skill">
                 <img src="./img/time-machine.png" alt="Time machine" class="skill-image">
@@ -63,7 +65,7 @@
 
 <section id="mail" class="section mail">
     <div class="container">
-        <h2 class="section-title">Форма заказа билета в будущее</h2>
+        <h2 class="section-title animated">Форма заказа билета в будущее</h2>
 
         <form action="#" class="form">
             <input placeholder="Имя" type="text">
@@ -80,5 +82,7 @@
         <p class="footer-text">© Все мои мечты защищены моим трудолюбием</p>
     </div>
 </footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
